@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+#cogi .btn{
+	width: 80%;
+	position: absolute;
+	bottom: -10px;
+	left: 10%;
+	border-radius: 10px;
+	font-size:1.2rem;
+}
+
+/*.............SAN_PHAM.........*/
+.san-pham-trang-chu .Caption-san-pham   p{transition: all 0.3s;
+	transform: scale(0.8);
+	opacity: 0.3}
+.san-pham-trang-chu .Caption-san-pham:hover p{
+	opacity: 1;
+	transform: scale(1)
+}
+
+.san-pham-trang-chu .bestseller img{transition: all 0.3s;
+	transform: scale(0.9);
+	cursor: pointer}
+.san-pham-trang-chu .bestseller:hover img{
+	transform: scale(1)
+		
+}
+/*..............VIDEO...........*/
+#video .SGS-NATURAL_COLLECTION p{transition: all 0.3s;
+	transform: scale(0.8);
+	opacity: 0.3}
+
+#video .SGS-NATURAL_COLLECTION:hover p{
+	opacity: 1;
+	transform: scale(1)
+}
+/*...............NEWARRIVAL..........*/
+
+#newarrival .btn-dark{
+	background-color:black;
+
+}
+#newarrival .btn-dark:hover{
+	background-color:#5F5F5F;}
+
+#Gioi-thieu p{transition: all 0.3s;
+	transform: scale(0.9);
+	opacity: 0.9;
+	cursor: pointer}
+
+#Gioi-thieu p:hover{transition: all 0.2s;
+transform: scale(1);
+	opacity: 1}
+#He-thong-cua-hang img
+{transform:all 0.3s;
+	transform: scale(0.9);
+	cursor: pointer}
+#He-thong-cua-hang img:hover
+{
+	transform: scale(1)}
+
+#He-thong-cua-hang .col-6  p{
+	transform: scale(0.9);
+	transition: all 0.3s;
+}
+#He-thong-cua-hang .col-6:hover p{
+	transform: scale(1)
+	
+}
+#footer .col-lg-12 .Thong-tin-cty p {text-decoration-color: #4F4E4E; font-size: 14px}
